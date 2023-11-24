@@ -1,7 +1,5 @@
 :root {
-
     --text-color-1: #fff;
-
     --darkwhite: #D9D9D9;
 
     --text-color-2: #000;
@@ -12,31 +10,19 @@
 
     --primary: #4ECD5D;
 }
-
-
 /*Contact knop*/
 .secondary {
-
     background-color:var(--primary);
-
     color: white;
-
     font-weight: 900;
-
     border-radius: 10px;
-
     border: 0;
-
     cursor: pointer;
 }
-
 .secondary:hover {
-
     color: var(--text-color-2);
-
 }
 /*einde contactknop einde*/
-
 
 /*Lees verder knop*/
 .readmore{
@@ -51,27 +37,16 @@
 /*einde lees verder knop*/
 
 /*Send knop*/
-
 .send{
-
     width: 20%;
-
     background: var(--tertiar);
-
     color: #ffffff;
-
     border: none;
-
     cursor: pointer;
-
     padding: 10px;
-
     font-size: 18px;
-
     border: 1px solid var(--tertiar);
-
     transition: 0.5s;
-
 }
-
+/*einde send knop*/
 
