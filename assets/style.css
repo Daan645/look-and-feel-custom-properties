@@ -1,14 +1,16 @@
 :root {
+    /*colors*/
     --text-color-1: #fff;
     --darkwhite: #D9D9D9;
-
     --text-color-2: #000;
-
     --tertiar: #7FAEC5;
-
     --secundair: #384B61;
-
     --primary: #4ECD5D;
+/*text properties*/
+    --text-size: 1em; /*fontSize*/
+    --text-font: "Calibri", sans-serif; /*FontFamily for text*/
+
+
 }
 /*Contact knop*/
 .secondary {
@@ -50,3 +52,8 @@
 }
 /*einde send knop*/
 
+/*Every button*/
+.readmore, .secondary, .readmore, .send{
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+}
